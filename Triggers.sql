@@ -16,6 +16,4 @@ BEGIN
         FROM DELETED
 END;
 
--- UPDATE PRODUCT
--- SET Price = 35.99
--- WHERE ProductID = 2;
+-- UPDATE PRODUCT SET Price = 99.99 WHERE ProductID = 2;

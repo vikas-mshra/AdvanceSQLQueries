@@ -14,7 +14,7 @@ BEGIN
         PRINT 'under control, within budget'
 END;
 
---exec Budget_sp @Input_Budget=18000, @Project_Name='ProjectA'
+--exec Budget_sp @Input_Budget=18000, @Project_Name='Stock Portfolio Management';
 
 -- 6. Create a procedure named “emp_hours_sp”: Input parameter: employee ID.Output parameter: total number of hours that the employee spent on all projects.CREATE 
 
@@ -60,7 +60,7 @@ BEGIN
     DEALLOCATE prod_cursor;
 END;
 
--- exec proj_prod_sp 'ProjectA';
+-- exec proj_prod_sp 'Stock Portfolio Management';
 
 -- 8. Use a procedure named “price_his_sp” to main database consistency.When changing the price of a product, add a record to the price history  (similar to what we did in Salary History table).
 
@@ -85,4 +85,4 @@ BEGIN
         END;    
 END;
 
--- exec price_his_sp 54.99,1
+-- exec price_his_sp 57.99,1
