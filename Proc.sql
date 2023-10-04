@@ -29,9 +29,9 @@ BEGIN
 END;
 
 -- DECLARE @Hours INT
---exec emp_hours_sp 2, @Hours OUTPUT
+--exec emp_hours_sp 102, @Hours OUTPUT
              -- OR
---exec emp_hours_sp @Emp_Id=2, @Hours=@Tot_Hours OUTPUT
+--exec emp_hours_sp @Emp_Id=102, @Tot_Hours=@Hours OUTPUT
 --PRINT 'Total Hours: ' + CONVERT(VARCHAR(20), @Hours)
 
 -- 7. Create a procedure named “proj_prod_sp”. You must use cursors in this procedure. Input parameter: Project name. This given (input) project can build multiple products. For each of these products, print the product ID and product description. It is required to use print statement to display ProductID and product description
