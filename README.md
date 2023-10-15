@@ -53,5 +53,3 @@ To replicate this database project, follow these steps:
 
 Feel free to explore and modify these SQL files as needed.
 
-For any issues or questions, please contact [Your Name] at [Your Email].
-
